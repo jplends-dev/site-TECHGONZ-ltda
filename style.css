@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap");
+
+/* Config Global */
+* {
+  margin: 0;
+  font-weight: 100;
+  font-family: "Outfit", sans-serif;
+}
+
+a, abbr
+{
+    text-decoration: none;
+    font-weight: 200;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+.paragraph
+{
+  text-indent: 25px;
+}
+
+footer {
+  display: flex;
+  background-color: #4e4e4e;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 10px 0px 10px 0px;
+}
+
+
+.interactive:hover {
+    opacity: 50%;
+  }
+
+.invertColor
+{
+  filter: invert(1);
+}
+
+
+/* Navegação*/
+ .navBar {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.699) 10%,
+      rgba(0, 0, 0, 0.082)
+    );
+    padding: 20px 0px 10px 0px;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #navLogo {
+    color: white;
+  }
+
+  .navBarContent {
+    padding: 0px 40px 0px 40px;
+  }
+
+  #registrationList {
+    list-style: none;
+    display: flex;
+  }
+
+  #registrationList > li > a {
+    color: white;
+    font-size: 25px;
+    padding: 0px 12px 0px 12px;
+  }
+
+  .shoppingCart {
+    width: 25px;
+
+    margin-right: 1vw;
+    padding-left: 20px;
+  }
+
+  /*Footer*/
+  #infoContact {
+    display: flex;
+    list-style: none;
+  }
+
+  #infoContact > li > a {
+    color: white;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .navIcon {
+    width: 25px;
+  }
+
+  #phoneImage {
+    transform: scaleX(-1);
+  }
+
+
+
+  /*HOME PAGE*/
+
+  #computerImage {
+    background-image: url(img/pc/PCgamer.png);
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 15px 12px rgb(43, 43, 43);
+    color: white;
+  }
+
+  .btn {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 3px 50px 3px 50px;
+  }
+
+
+  #pcButton {
+    border: 2px solid white;
+    font-size: 4vw;
+    color: white;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+  }
+
+  #pcButton:hover
+  {
+        font-weight: 300;
+        background-color: white;
+        color: rgb(42, 37, 48);
+  }
+
+
+  /* Informações*/
+  #infoAbout {
+    padding-left: 20px;
+    text-align: justify;
+    width: 40vw;
+    font-size: 23px;
+  }
+
+  #infoAbout > h1
+  {
+    width: 50%;
+    border-bottom: 2px solid rgb(42, 37, 48)ck;
+  }
+
+  #info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+    padding: 150px 0px 250px 0px;
+
+  }
+
+
+  #logo {
+    font-weight: 500;
+    font-size: 3vw;
+    margin-right: 15vw;
+  }
+
+  #infoAtTheBottom {
+    display: flex;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  #sponsors {
+    padding-left: 10px;
+  }
+
+  .sponsorsImage {
+    width: 3%;
+  }
+
+
+
+  /*ComprarPC*/
+
+  #buttonDiv {
+    height: 22.8vh;
+    text-align: center;
+    padding-top: 7.1vh;
+  }
+
+  #freightPrice {
+    font-weight: 300;
+  }
+
+  #buyButton {
+    border: 2px solid rgb(42, 37, 48);
+    color: rgb(42, 37, 48);
+    font-size: 2vw;
+    margin: 3px;
+  }
+
+  #numOfVotes {
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  #oldPrice {
+    color: #f87171;
+  }
+
+  #computerBeside {
+    height: 94.9vh;
+    width: 50vw;
+    background-image: url(img/pc/PCgamer.png);
+    background-position: 50%;
+    background-size: cover;
+  }
+
+  #pcName {
+    color: white;
+    margin-top: 80vh;
+    margin-left: 2vw;
+    font-size: 10vh;
+  }
+
+  #buyPc {
+    display: flex;
+  }
+
+  #buyButton:hover
+  {
+    background-color: rgb(42, 37, 48);
+    color: white;
+  }
+
+  #specsPc > ul {
+    text-align: justify;
+    list-style: none;
+    line-height: 50px;
+    margin: auto;
+  }
+
+  #specsPc > ul > li {
+    border-bottom: 1px solid rgb(42, 37, 48);
+  }
+
+  #specsPc {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    font-size: 25px;
+  }
+
+  #rating {
+    text-align: center;
+  }
+
+  /*Privacidade*/
+
+  #policyPrivacy 
+  {
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 6.8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  #policyPrivacy > ol > li
+  {
+    padding: 1.13vh;
+  }
+
+  #policyPrivacy > h2
+  {
+    text-align: center;
+    padding: 12vh 0px 5vh 0px;
+  }
+
+/*Fomulário*/
+
+#formDiv
+{
+  width: 45vw;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+#formDiv > h1
+{
+  padding-top: 35px;
+}
+
+#formDiv  > form
+{
+  margin-top: 10vh;
+  height: 66.7vh;
+}
+
+#formDiv  > form > div
+{
+  margin-bottom: 30px; 
+  font-weight: 300;
+  text-align: center;
+}
+#formDiv  > form > div > p
+{
+  font-weight: 200;
+
+}
+
+.formContent
+{
+  width: 50%;
+  padding: 15px;
+  margin: auto;
+  background-color: #D9D9D9;
+  border: none;
+}
+
+#submitButton
+{
+  margin-top: 9vh;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    font-size: 24px;
+    background-color: #4E4E4E;
+    border-radius: 15px;
+    color: white;
+}
+
+#infoRegister
+{
+  text-align: justify;
+  width: 70%;
+  margin-left: 15.7%;
+}
+

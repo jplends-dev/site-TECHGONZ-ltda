@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <!--Barra de navegação-->
+    <header>
+      <nav class="navBar">
+        <a href="index.html" id="navLogo" class="navBarContent interactive"
+          ><h1>TECHGONZ</h1></a
+        >
+      </nav>
+    </header>
+
+    <main id="content">
+      <div id="formDiv">
+        <h1>Crie Sua Conta</h1>
+
+        <form>
+          <div>
+            <p>Nome</p>
+            <input type="text" class="formContent" />
+          </div>
+
+          <div>
+            <p>Email</p>
+            <input type="email" class="formContent" />
+          </div>
+
+          <div>
+            <p>Senha</p>
+            <input type="password" class="formContent" />
+          </div>
+          <br />
+
+          <p id="infoRegister">
+            Ao criar a sua conta você concorda com nossas
+            <a href="privacidade.html" class="interactive"
+              >política de privacidade.</a
+            >
+            Quaisquer informações que os usuários passarem serão coletadas e
+            guardadas de acordo com padrões rígidos de segurança e
+            confidencialidade.
+          </p>
+
+          <div>
+            <input
+              type="button"
+              value="CRIAR"
+              id="submitButton"
+              class="formContent interactive"
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2023 TECHGONZ. Todos os direitos autorais reservados.
+
+      <nav>
+        <ul id="infoContact">
+          <li>
+            <a href="#" class="interactive">
+              <img
+                src="img/logos/icon_phone.png"
+                class="navIcon invertColor"
+                id="phoneImage"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" class="interactive"
+              ><img
+                src="img/logos/icon_envelope.png"
+                class="navIcon invertColor"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
